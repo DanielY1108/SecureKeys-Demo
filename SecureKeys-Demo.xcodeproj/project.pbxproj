@@ -13,6 +13,8 @@
 		65AD77452994FB2600E42073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD77432994FB2600E42073 /* Main.storyboard */; };
 		65AD77472994FB2700E42073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AD77462994FB2700E42073 /* Assets.xcassets */; };
 		65AD774A2994FB2700E42073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD77482994FB2700E42073 /* LaunchScreen.storyboard */; };
+		65AD77522994FB9A00E42073 /* DEBUG-Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65AD77512994FB9A00E42073 /* DEBUG-Keys.plist */; };
+		65AD77542994FBC700E42073 /* PROD-Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65AD77532994FBC700E42073 /* PROD-Keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65AD77462994FB2700E42073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65AD77492994FB2700E42073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65AD774B2994FB2700E42073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AD77512994FB9A00E42073 /* DEBUG-Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DEBUG-Keys.plist"; sourceTree = "<group>"; };
+		65AD77532994FBC700E42073 /* PROD-Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PROD-Keys.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				65AD77462994FB2700E42073 /* Assets.xcassets */,
 				65AD77482994FB2700E42073 /* LaunchScreen.storyboard */,
 				65AD774B2994FB2700E42073 /* Info.plist */,
+				65AD77512994FB9A00E42073 /* DEBUG-Keys.plist */,
+				65AD77532994FBC700E42073 /* PROD-Keys.plist */,
 			);
 			path = "SecureKeys-Demo";
 			sourceTree = "<group>";
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AD77542994FBC700E42073 /* PROD-Keys.plist in Resources */,
 				65AD774A2994FB2700E42073 /* LaunchScreen.storyboard in Resources */,
 				65AD77472994FB2700E42073 /* Assets.xcassets in Resources */,
+				65AD77522994FB9A00E42073 /* DEBUG-Keys.plist in Resources */,
 				65AD77452994FB2600E42073 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

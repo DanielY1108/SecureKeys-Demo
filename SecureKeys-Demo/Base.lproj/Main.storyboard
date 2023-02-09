@@ -22,16 +22,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmu-SK-77l">
+                                <rect key="frame" x="168.33333333333334" y="460.66666666666669" width="56.666666666666657" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Wmu-SK-77l" firstAttribute="top" secondItem="FIa-Mf-wNy" secondAttribute="bottom" constant="20" id="65L-iz-1aj"/>
+                            <constraint firstItem="Wmu-SK-77l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vy8-nQ-DvQ"/>
                             <constraint firstItem="FIa-Mf-wNy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qP2-0l-Qwl"/>
                             <constraint firstItem="FIa-Mf-wNy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qnZ-Yc-ULS"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="apiKeyLabel" destination="FIa-Mf-wNy" id="VfC-tk-pxY"/>
+                        <outlet property="serviceLabel" destination="Wmu-SK-77l" id="Nbw-Pz-oyd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

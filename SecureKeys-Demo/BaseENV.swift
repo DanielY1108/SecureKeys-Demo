@@ -9,6 +9,11 @@ import UIKit
 
 class BaseENV {
     
+    enum Key: String {
+        case SERVICE_API_KEY
+        case SERVICE_CLIENT_ID
+    }
+    
     let dict: NSDictionary
     
     init(resourceName: String) {
@@ -35,10 +40,10 @@ class DebugENV: BaseENV, APIKeyable {
     // 키는 plist의 dic에 저장된 속성의 이름을 정확히 써야된다.
     // 딕셔너리에 직접 값을 넣어서 받아도 되고 object 메서드를 사용해도 된다.
     var SERVICE_API_KEY: String {
-        dict["SERVICE_API_KEY"] as? String ?? ""
+        dict[Key.SERVICE_API_KEY.rawValue] as? String ?? ""
     }
     var SERVICE_CLIENT_ID: String {
-        dict.object(forKey: "SERVICE_CLIENT_ID") as? String ?? ""
+        dict.object(forKey: Key.SERVICE_CLIENT_ID.rawValue) as? String ?? ""
     }
 }
 
@@ -49,10 +54,10 @@ class ProdENV: BaseENV, APIKeyable {
     }
     
     var SERVICE_API_KEY: String {
-        dict.object(forKey: "SERVICE_API_KEY") as? String ?? ""
+        dict.object(forKey: Key.SERVICE_API_KEY.rawValue) as? String ?? ""
     }
     
     var SERVICE_CLIENT_ID: String {
-        dict.object(forKey: "SERVICE_CLIENT_ID") as? String ?? ""
+        dict.object(forKey: Key.SERVICE_CLIENT_ID.rawValue) as? String ?? ""
     }
 }

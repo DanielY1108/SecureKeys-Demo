@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // 호출
+        apiKeyLabel.text = ENV.SERVICE_API_KEY
     }
 
 

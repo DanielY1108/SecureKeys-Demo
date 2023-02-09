@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6540D2B6299572F90002A153 /* BaseENV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6540D2B5299572F90002A153 /* BaseENV.swift */; };
 		65AD773E2994FB2600E42073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD773D2994FB2600E42073 /* AppDelegate.swift */; };
 		65AD77402994FB2600E42073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD773F2994FB2600E42073 /* SceneDelegate.swift */; };
 		65AD77422994FB2600E42073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD77412994FB2600E42073 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6540D2B5299572F90002A153 /* BaseENV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseENV.swift; sourceTree = "<group>"; };
 		65AD773A2994FB2600E42073 /* SecureKeys-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecureKeys-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AD773D2994FB2600E42073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65AD773F2994FB2600E42073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				65AD773D2994FB2600E42073 /* AppDelegate.swift */,
 				65AD773F2994FB2600E42073 /* SceneDelegate.swift */,
 				65AD77412994FB2600E42073 /* ViewController.swift */,
+				6540D2B5299572F90002A153 /* BaseENV.swift */,
 				65AD77432994FB2600E42073 /* Main.storyboard */,
 				65AD77462994FB2700E42073 /* Assets.xcassets */,
 				65AD77482994FB2700E42073 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6540D2B6299572F90002A153 /* BaseENV.swift in Sources */,
 				65AD77422994FB2600E42073 /* ViewController.swift in Sources */,
 				65AD773E2994FB2600E42073 /* AppDelegate.swift in Sources */,
 				65AD77402994FB2600E42073 /* SceneDelegate.swift in Sources */,
